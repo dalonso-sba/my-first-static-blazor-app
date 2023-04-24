@@ -1,4 +1,8 @@
 {
+    {
+        "route": "/login",
+        "redirect": "/.auth/login/github"
+    },
     "navigationFallback": {
         "rewrite": "/index.html"
     }
