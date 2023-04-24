@@ -1,8 +1,10 @@
 {
-    {
-        "route": "/login",
-        "redirect": "/.auth/login/github"
-    },
+    "routes": [
+        {
+           "route": "/login",
+           "redirect": "/.auth/login/github"
+        }
+    ],
     "navigationFallback": {
         "rewrite": "/index.html"
     }
